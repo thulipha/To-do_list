@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100%;
+  margin-top: 1.5rem;
+  display: flex;
+  background-color: black;
+  justify-content: center;
+}
+
+.todoList{
+  width: 22.5rem;
+  height: 37.5rem;
+  padding: 1rem;
+  background-color: #0BFFBD;
+  position: relative;
+  border-radius: 5px;
+  overflow-x: scroll;
+}
+
+main h1{
+  font-size: 2.3rem;
+  padding: 15px 5px;
+  font-weight: 500;
+  color: #023326;
+  font-family: 'Caveat',cursive;
+  text-align: center;
+}
+
+
+.itemAdd{
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.itemAdd input{
+  width: 17.5rem;
+  height: 2.5rem;
+  font-size: .8rem;
+  outline: .5px solid deepskyblue;
+}
+
+.itemAdd button{
+  width: 4rem;
+  height: 2.5rem;
+  color: #023326;
+  font-weight: 500;
+  font-size: .7rem;
+  background-color: #0BFFBD;
+  border-radius: 0 3px 3px 0;
+  border: 1px solid deepskyblue;
+  transition: .1s ease-in-out;
+}
+.itemAdd button:hover{
+  background-color: #0BF4BD;
+  font-size: .8rem;
+}
+.actualList{
+  color: #023326;
+  background-color: #0BF2BD;
+  text-transform: capitalize;
+  list-style-position: inside;
+  font-weight: 500;
+  letter-spacing: .3px;
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 2px;
+}
+
+.list-items li{
+  position: relative;
+  padding: 5px 0;
+  border-bottom: 1px solid #05805F;
+}
+
+li img{
+  width: 21px;
+  position: absolute;
+  right: 2px;
+}
+li.done{
+  text-decoration: line-through;
+}
+/*li::before{
+  content: 'X';
+  text-align: center;
+  text-justify: center;
+  line-height: 20px;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  right: 7px;
+  top: 3px;
+  padding: 3px;
+  background-color: indianred;
+  border-radius: 50%;
+}
+li::after{
+  content: '✓';
+  color: lightcyan;
+  text-align: center;
+  line-height: 22px;
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  padding: 3px;
+  top: 3px;
+  background-color: seagreen;
+  right: 43px;
+}
+*/
