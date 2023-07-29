@@ -19,7 +19,7 @@ function addItem(){
       $itemAdder.value = '';
   
       let rmImage = document.createElement('img');
-      rmImage.srcset = 'assets/lixo.png';
+      rmImage.srcset = 'assets/Lixo.png';
       
       $list.appendChild(newItem);
       newItem.appendChild(rmImage);
