@@ -88,32 +88,3 @@ li img{
 li.done{
   text-decoration: line-through;
 }
-/*li::before{
-  content: 'X';
-  text-align: center;
-  text-justify: center;
-  line-height: 20px;
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  right: 7px;
-  top: 3px;
-  padding: 3px;
-  background-color: indianred;
-  border-radius: 50%;
-}
-li::after{
-  content: '✓';
-  color: lightcyan;
-  text-align: center;
-  line-height: 22px;
-  position: absolute;
-  width: 17px;
-  height: 17px;
-  border-radius: 50%;
-  padding: 3px;
-  top: 3px;
-  background-color: seagreen;
-  right: 43px;
-}
-*/

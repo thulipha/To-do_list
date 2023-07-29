@@ -32,6 +32,7 @@ function addItem(){
         newItem.classList.toggle('done');
       };
       
+      
       newItem.addEventListener('dblclick',doneItem);
       
       return rmImage.addEventListener('click', removeItem);
